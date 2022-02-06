@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #000;
+    overflow-y: hidden;
+}
+
+#info_links {
+    width: 100%;
+    display: flex;
+}
+
+.img-wrap {
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.img-wrap a img{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.img-wrap a:after {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 60px;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25%;
+    position: absolute;
+}
+
+#wrap-africa a:after {
+    content: "Africa";
+}
+
+#wrap-budism a:after {
+    content: "Budism";
+}
+
+#wrap-hidrogen a:after {
+    content: "Hidrogen";
+}
+
+#wrap-neuronal a:after {
+    content: "Neuronal networks";
+}
+
+.img-wrap:hover img {
+    opacity: 1;
+    transition: 0.5s ease-in;
+    transform: scale(1.25);
+}
+
+
+
+
