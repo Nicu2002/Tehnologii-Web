@@ -1,0 +1,40 @@
+@import "cars-layout-style.css";
+
+#services * {
+    color: black;
+}
+
+#services {
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#services h3 {
+    font-size: 20px;
+    position: relative;
+}
+
+#services ul li {
+    background-color: #c3ced9;
+    margin-top: 20px;
+    padding: 15px 15px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 200px;
+}
+
+#services h3::after {
+    content: "+373 12345674";
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    left: 200px;
+}

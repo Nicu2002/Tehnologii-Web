@@ -1,0 +1,12 @@
+@import "cars-layout-style.css";
+
+.accessories-card {
+    margin-bottom: 50px;
+}
+
+#accessories-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}

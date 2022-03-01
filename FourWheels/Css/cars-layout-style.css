@@ -6,6 +6,8 @@ body {
 
 #search-box {
     margin-top: 75px;
+    display: flex;
+    width: 800px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -26,4 +28,39 @@ body {
     background-color: #272b33;
     height: 78vh;
     width: 200px;
+}
+
+#cars-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.car-card {
+    margin-bottom: 50px;
+}
+
+#sort-menu {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+#sort-menu ul li {
+    padding: 8px 8px;
+    text-align: center;
+    width: 150px;
+    background-color: #a83931;
+    border-radius: 5px;
+    position: absolute;
+    top: 6px;
+    cursor: pointer;
 }
