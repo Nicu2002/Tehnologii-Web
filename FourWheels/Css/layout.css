@@ -118,7 +118,7 @@ footer li {
 
 #phone-num:before {
     content: "";
-    background-image: url(../Img/telephone.png);
+    background-image: url(../Img/footer/telephone.png);
     display: block;
     width: 20px;
     height: 20px;
@@ -129,7 +129,7 @@ footer li {
 }
 #insta-link:before {
     content: "";
-    background-image: url(../Img/instagram.png);
+    background-image: url(../Img/footer/instagram.png);
     display: block;
     width: 20px;
     height: 20px;
@@ -140,7 +140,7 @@ footer li {
 }
 #facebook-link:before {
     content: "";
-    background-image: url(../Img/facebook.png);
+    background-image: url(../Img/footer/facebook.png);
     display: block;
     width: 20px;
     height: 20px;
@@ -151,7 +151,7 @@ footer li {
 }
 #telegram-link:before {
     content: "";
-    background-image: url(../Img/telegram.png);
+    background-image: url(../Img/footer/telegram.png);
     display: block;
     width: 20px;
     height: 20px;
@@ -162,7 +162,7 @@ footer li {
 }
 #office-adress:before {
     content: "";
-    background-image: url(../Img/placeholder.png);
+    background-image: url(../Img/footer/placeholder.png);
     display: block;
     width: 20px;
     height: 20px;
