@@ -19,6 +19,7 @@
 }
 /* sort-menu */
 #sort-menu {
+    position: relative;
     display: flex;
     width: 150px;
     justify-content: space-between;
@@ -33,6 +34,15 @@
     background-color: #a83931;
     border-radius: 5px;
     position: absolute;
-    top: 6px;
     cursor: pointer;
+}
+
+#sort-menu ul li:hover{
+    background-color: #852e28;
+}
+
+#sort-menu ul {
+    position: absolute;
+    left: 200px;
+    top: -6px;
 }
