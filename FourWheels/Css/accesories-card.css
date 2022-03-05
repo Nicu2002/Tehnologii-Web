@@ -1,0 +1,26 @@
+.accessories-card {
+    width: 250px;
+    height: 250px;
+    background-color: #e3e3e3;
+}
+
+.card-price {
+    color: black;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}

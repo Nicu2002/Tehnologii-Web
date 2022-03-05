@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+}
+
+#cars-filter {
+    margin-left: 50px;
+    background-color: #272b33;
+    height: 78vh;
+    width: 200px;
+}
+
+#cars-cards {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.car-card {
+    margin-bottom: 50px;
+}

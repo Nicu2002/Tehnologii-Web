@@ -1,0 +1,16 @@
+.accessories-card {
+    margin-bottom: 50px;
+}
+
+#accessories-cards {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
