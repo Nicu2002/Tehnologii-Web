@@ -59,3 +59,43 @@ section {
 .parteners-logo {
     width: 150px;
 }
+
+/* Slider */
+
+#porche-slider .slider-carrousel {
+    width: 900px;
+    height: 400px;
+    background-color: red;
+    overflow: hidden;
+    position: relative;
+}
+
+#porche-slider .slider-carrousel>img {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.slider-arrows img {
+    display: block;
+    width: 35px;
+    cursor: pointer;
+}
+
+.slider-arrows img:first-child {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.slider-arrows img:last-child {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+

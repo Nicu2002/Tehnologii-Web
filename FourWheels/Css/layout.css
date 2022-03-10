@@ -7,7 +7,6 @@
     letter-spacing: 2px;
     color: white;
     list-style: none;
-    font-family: 'Gideon Roman', cursive;
 }
 
 body {
@@ -34,6 +33,7 @@ nav {
 
 .nav-bar-links {
     color: white;
+    font-family: 'Gideon Roman', cursive;
 }
 
 #logo {
