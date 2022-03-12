@@ -62,19 +62,25 @@ section {
 
 /* Slider */
 
-#porche-slider .slider-carrousel {
+#porche-slider {
+    position: relative;
     width: 900px;
     height: 400px;
-    background-color: red;
+    margin-left: 50%;
+    transform: translateX(-50%);
     overflow: hidden;
-    position: relative;
+}
+
+#porche-slider .slider-carrousel {
+    display: flex;
+    transform: translateX(900px);
+    transition-duration: 0.7s;
 }
 
 #porche-slider .slider-carrousel>img {
     width: 900px;
     height: 400px;
     object-fit: cover;
-    position: absolute;
 }
 
 .slider-arrows img {
@@ -97,5 +103,23 @@ section {
     transform: translateY(-50%);
 }
 
+#slider-points {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+}
+
+#slider-points div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    opacity: 20%;
+    border-radius: 2px;
+}
+
+#slider-points div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+} 
 
 
