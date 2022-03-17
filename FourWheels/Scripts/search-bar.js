@@ -11,12 +11,11 @@ let resultsCounter;
 
 const numberOfResults = document.querySelector("#sort-menu p");
 
-inputField.addEventListener("keypress", (event) => {
-    if (event.keyCode === 13) {
-        inputValue = inputField.value;
-        event.preventDefault();
-        filterCards(inputValue);
-    }
+inputField.addEventListener("input", (event) => {
+    console.log("da");
+    inputValue = inputField.value;
+    filterCards(inputValue);
+
 });
 
 function filterCards(inputValue) {
@@ -30,5 +29,10 @@ function filterCards(inputValue) {
             }
         });
         numberOfResults.innerHTML = `(${resultsCounter})`;
+    }
+    else {
+        carsCards.forEach((el, i) => {
+            carsCards[i].style.display = "block";
+        });
     }
 }
