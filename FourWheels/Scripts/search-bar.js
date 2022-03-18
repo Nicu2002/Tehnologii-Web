@@ -12,7 +12,6 @@ let resultsCounter;
 const numberOfResults = document.querySelector("#sort-menu p");
 
 inputField.addEventListener("input", (event) => {
-    console.log("da");
     inputValue = inputField.value;
     filterCards(inputValue);
 

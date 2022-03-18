@@ -2,7 +2,6 @@ const navigationBar = document.getElementById("nav-wrap");
 document.body.onscroll = function () { fillNavbarOnScroll() };
 
 function fillNavbarOnScroll() {
-    console.log("fafa");
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         navigationBar.style.backgroundColor = "black";
         navigationBar.addEventListener("mouseover", function (event) {
