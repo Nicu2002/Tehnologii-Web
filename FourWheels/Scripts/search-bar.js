@@ -4,7 +4,6 @@ const carsCards = document.querySelectorAll(".car-card");
 const carsTitles = document.querySelectorAll(".card-title");
 
 const inputField = document.querySelector("#search-bar");
-const cards = document.querySelectorAll(".car-card");
 
 let inputValue;
 let resultsCounter;

@@ -31,3 +31,4 @@ fetch("http://localhost:3000/cars")
         searchScript.src = "../Scripts/search-bar.js";
         document.body.appendChild(searchScript);
     });
+ 
