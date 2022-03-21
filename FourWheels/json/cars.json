@@ -1,0 +1,114 @@
+{
+    "cars": [
+        {
+            "name": "Mercedes GLC 250",
+            "images": [
+                "../Img/cars/car1.jpg"
+            ],
+            "price": "56.000",
+            "Year": "2019",
+            "Power": "356 hp",
+            "Fuel": "Gas",
+            "Transmision": "automat"
+        },
+        {
+            "name": "Jaguar XF",
+            "images": [
+                "../Img/cars/jaguar-xf-001.jpg"
+            ],
+            "price": "37.000",
+            "Year": "2016",
+            "Power": "226 hp",
+            "Fuel": "Gas",
+            "Transmision": "automat"
+        },
+        {
+            "name": "Bmw 7",
+            "images": [
+                "../Img/cars/bmw-7-001.jpg"
+            ],
+            "price": "48.000",
+            "Year": "2018",
+            "Power": "415 hp",
+            "Fuel": "Gas",
+            "Transmision": "automat"
+        },
+        {
+            "name": "Mercedes amg",
+            "images": [
+                "../Img/cars/mercedes-amg-001.jpg"
+            ],
+            "price": "73.500",
+            "Year": "2020",
+            "Power": "480 hp",
+            "Fuel": "Gas",
+            "Transmision": "automat"
+        },
+        {
+            "name": "Tesla model 3",
+            "images": [
+                "../Img/cars/tesla-3-001.jpg"
+            ],
+            "price": "21.250",
+            "Year": "2019",
+            "Power": "553 hp",
+            "Fuel": "Electric car",
+            "Transmision": "automat"
+        },
+        {
+            "name": "Mercedes E220",
+            "images": [
+                "../Img/cars/mercedes-e-001.jpg"
+            ],
+            "price": "16.000",
+            "Year": "2014",
+            "Power": "220 hp",
+            "Fuel": "Diesel",
+            "Transmision": "mechanic"
+        },
+        {
+            "name": "Wolksvagen passat",
+            "images": [
+                "../Img/cars/wv-passat-001.jpg"
+            ],
+            "price": "5.500",
+            "Year": "2009",
+            "Power": "172 hp",
+            "Fuel": "Gas",
+            "Transmision": "mechanic"
+        },
+        {
+            "name": "Suzuki swift",
+            "images": [
+                "../Img/cars/suzuki-001.jpg"
+            ],
+            "price": "13.000",
+            "Year": "2010",
+            "Power": "146 hp",
+            "Fuel": "Diesel",
+            "Transmision": "automat"
+        },
+        {
+            "name": "Opel astra",
+            "images": [
+                "../Img/cars/opel-astraj-001.jpg"
+            ],
+            "price": "7.000",
+            "Year": "2012",
+            "Power": "216 hp",
+            "Fuel": "Gas",
+            "Transmision": "mechanic"
+        },
+        {
+            "name": "Wolksvagen golf",
+            "images": [
+                "../Img/cars/wv-golf-001.png"
+            ],
+            "price": "6.750",
+            "Year": "2010",
+            "Power": "170 hp",
+            "Fuel": "Gas",
+            "Transmision": "mechanic"
+        }
+    ]
+}
