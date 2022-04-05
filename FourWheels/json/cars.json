@@ -3,7 +3,7 @@
         {
             "name": "Mercedes GLC 250",
             "images": [
-                "../Img/cars/car1.jpg"
+                "Img/cars/car1.jpg"
             ],
             "price": "56.000",
             "Year": "2019",
@@ -14,7 +14,7 @@
         {
             "name": "Jaguar XF",
             "images": [
-                "../Img/cars/jaguar-xf-001.jpg"
+                "Img/cars/jaguar-xf-001.jpg"
             ],
             "price": "37.000",
             "Year": "2016",
@@ -25,7 +25,7 @@
         {
             "name": "Bmw 7",
             "images": [
-                "../Img/cars/bmw-7-001.jpg"
+                "Img/cars/bmw-7-001.jpg"
             ],
             "price": "48.000",
             "Year": "2018",
@@ -36,7 +36,7 @@
         {
             "name": "Mercedes amg",
             "images": [
-                "../Img/cars/mercedes-amg-001.jpg"
+                "Img/cars/mercedes-amg-001.jpg"
             ],
             "price": "73.500",
             "Year": "2020",
@@ -47,7 +47,7 @@
         {
             "name": "Tesla model 3",
             "images": [
-                "../Img/cars/tesla-3-001.jpg"
+                "Img/cars/tesla-3-001.jpg"
             ],
             "price": "21.250",
             "Year": "2019",
@@ -58,7 +58,7 @@
         {
             "name": "Mercedes E220",
             "images": [
-                "../Img/cars/mercedes-e-001.jpg"
+                "Img/cars/mercedes-e-001.jpg"
             ],
             "price": "16.000",
             "Year": "2014",
@@ -69,7 +69,7 @@
         {
             "name": "Wolksvagen passat",
             "images": [
-                "../Img/cars/wv-passat-001.jpg"
+                "Img/cars/wv-passat-001.jpg"
             ],
             "price": "5.500",
             "Year": "2009",
@@ -80,7 +80,7 @@
         {
             "name": "Suzuki swift",
             "images": [
-                "../Img/cars/suzuki-001.jpg"
+                "Img/cars/suzuki-001.jpg"
             ],
             "price": "13.000",
             "Year": "2010",
@@ -91,7 +91,7 @@
         {
             "name": "Opel astra",
             "images": [
-                "../Img/cars/opel-astraj-001.jpg"
+                "Img/cars/opel-astraj-001.jpg"
             ],
             "price": "7.000",
             "Year": "2012",
@@ -102,7 +102,7 @@
         {
             "name": "Wolksvagen golf",
             "images": [
-                "../Img/cars/wv-golf-001.png"
+                "Img/cars/wv-golf-001.png"
             ],
             "price": "6.750",
             "Year": "2010",

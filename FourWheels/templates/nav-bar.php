@@ -1,21 +1,21 @@
 <nav>
     <div id="nav-wrap">
-        <a id="logo" class="nav-bar-links" href="">4Wheels</a>
+        <a id="logo" class="nav-bar-links" href="index.php">4Wheels</a>
         <ul class="nav-bar">
             <li>
-                <a href="Templates/cars-page.html" class="nav-bar-links">Cars</a>
+                <a href="cars-page.php" class="nav-bar-links">Cars</a>
             </li>
             <li>
-                <a href="Templates/accesories-page.html" class="nav-bar-links">Accesories</a>
+                <a href="accesories-page.php" class="nav-bar-links">Accesories</a>
             </li>
             <li>
-                <a href="Templates/wheels-page.html" class="nav-bar-links">Wheels</a>
+                <a href="wheels-page.php" class="nav-bar-links">Wheels</a>
             </li>
             <li>
-                <a href="Templates/services-page.html" class="nav-bar-links">Services</a>
+                <a href="services-page.php" class="nav-bar-links">Services</a>
             </li>
             <li>
-                <a href="Templates/auth-page.html" class="log_in-button">Log in</a>
+                <a href="auth-page.php" class="log_in-button">Log in</a>
             </li>
         </ul>
     </div> 

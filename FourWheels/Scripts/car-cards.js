@@ -24,11 +24,11 @@ fetch("http://localhost:3000/cars")
         }
     }).then(() => {
         const sortScript = document.createElement("script");
-        sortScript.src = "../Scripts/sort-menu.js";
+        sortScript.src = "Scripts/sort-menu.js";
         document.body.appendChild(sortScript);
 
         const searchScript = document.createElement("script");
-        searchScript.src = "../Scripts/search-bar.js";
+        searchScript.src = "Scripts/search-bar.js";
         document.body.appendChild(searchScript);
     });
  

@@ -3,33 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/layout.css">
-    <link rel="stylesheet" href="../Css/pages/services-page.css">
+    <link rel="stylesheet" href="Css/layout.css">
+    <link rel="stylesheet" href="Css/pages/services-page.css">
     <title>Wheels</title>
 </head>
 <body>
-    <nav>
-        <div id="nav-wrap">
-            <a id="logo" class="nav-bar-links" href="../index.html">4Wheels</a>
-            <ul class="nav-bar">
-                <li>
-                    <a href="cars-page.html" class="nav-bar-links">Cars</a>
-                </li>
-                <li>
-                    <a href="accesories-page.html" class="nav-bar-links">Accesories</a>
-                </li>
-                <li>
-                    <a href="wheels-page.html" class="nav-bar-links">Wheels</a>
-                </li>
-                <li>
-                    <a href="" class="nav-bar-links">Services</a>
-                </li>
-                <li>
-                    <a href="auth-page.html" class="log_in-button">Log in</a>
-                </li>
-            </ul>
-        </div> 
-    </nav>
+    
+    <?php require "templates/nav-bar.php" ?>
     
     <section id="services">
         <ul>
@@ -41,7 +21,7 @@
                         pariatur amet dolores eaque laudantium. Sunt recusandae rem aspernatur 
                         delectus voluptatem. Iusto saepe quam ullam fugit quia tempore dolorem sunt 
                     </p>
-                    <img src="../Img/services/service.jpg" alt="">
+                    <img src="Img/services/service.jpg" alt="">
                 </div>
             </li>
             <li>
@@ -52,7 +32,7 @@
                         pariatur amet dolores eaque laudantium. Sunt recusandae rem aspernatur 
                         delectus voluptatem. Iusto saepe quam ullam fugit quia tempore dolorem sunt 
                     </p>
-                    <img src="../Img/services/service.jpg" alt="">
+                    <img src="Img/services/service.jpg" alt="">
                 </div>
             </li>
             <li>
@@ -63,7 +43,7 @@
                         pariatur amet dolores eaque laudantium. Sunt recusandae rem aspernatur 
                         delectus voluptatem. Iusto saepe quam ullam fugit quia tempore dolorem sunt 
                     </p>
-                    <img src="../Img/services/service.jpg" alt="">
+                    <img src="Img/services/service.jpg" alt="">
                 </div>
             </li>
             <li>
@@ -74,7 +54,7 @@
                         pariatur amet dolores eaque laudantium. Sunt recusandae rem aspernatur 
                         delectus voluptatem. Iusto saepe quam ullam fugit quia tempore dolorem sunt 
                     </p>
-                    <img src="../Img/services/service.jpg" alt="">
+                    <img src="Img/services/service.jpg" alt="">
                 </div>
             </li>
             <li>
@@ -85,24 +65,14 @@
                         pariatur amet dolores eaque laudantium. Sunt recusandae rem aspernatur 
                         delectus voluptatem. Iusto saepe quam ullam fugit quia tempore dolorem sunt 
                     </p>
-                    <img src="../Img/services/service.jpg" alt="">
+                    <img src="Img/services/service.jpg" alt="">
                 </div>
             </li>
         </ul>
     </section>
 
-    <footer>
-        <h2>4Wheels</h2>
-        <ul>
-            <li id="phone-num"><a href="">373 695 67 855</a></li>
-            <li id="insta-link"><a href="">insta.com/4Wheels</a></li>
-            <li id="facebook-link"><a href="">facebook.com/4Wheels</a></li>
-            <li id="telegram-link"><a href="">telegram.com/4Wheels</a></li>
-            <li id="office-adress"><a href="">Str. 27 august 32/1</a></li>
-        </ul>
-        <img src="../Img/footer/address-map.png" alt="map">
-    </footer>
+    <?php require "templates/footer.php" ?>
 
-    <script src="../Scripts/script.js"></script>
+    <script src="Scripts/script.js"></script>
 </body>
 </html>
