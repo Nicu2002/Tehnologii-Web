@@ -11,17 +11,16 @@
 </head>
 <body>
     <?php require "templates/nav-bar.php" ?>
-    
     <div id="auth-reg-form">
         <div>
             <h2 id="sign-in-header">SIGN IN</h2>
             <h2 id="register-header">REGISTER</h2id=sign-in-header>
             <div></div>
         </div>
-        <form action="" id="sign-in">
+        <form action="server.php" method="get" id="sign-in">
             <input type="text" placeholder="login" name="login">
             <input type="text" placeholder="password" name="password">
-            <button>LOG IN</button>
+            <button type="submit">LOG IN</button>
 
             <a id="forgot_pass" href="">Forgot Password?</a>
         </form>
