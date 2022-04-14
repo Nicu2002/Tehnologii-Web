@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <nav>
     <div id="nav-wrap">
         <a id="logo" class="nav-bar-links" href="index.php">4Wheels</a>
@@ -15,7 +16,18 @@
                 <a href="services-page.php" class="nav-bar-links">Services</a>
             </li>
             <li>
-                <a href="auth-page.php" class="log_in-button">Log in</a>
+                <?php
+                    if(isset($_SESSION["logged"]) && isset($_SESSION["login"])){
+                        $login = $_SESSION["login"];
+                        echo "
+                            <a href='auth-page.php' class='log_in-button'>$login</a>
+                            <a href='index.php' class='log_in-button' id='logout-btn' style='background-color: transparent'><img src='Img/logout.png' alt='loguot' style='width: 25px'></a>
+                        ";
+                    } 
+                    else {
+                        echo "<a href='auth-page.php' class='log_in-button'>Log in</a>";
+                    }
+                ?>
             </li>
         </ul>
     </div> 
