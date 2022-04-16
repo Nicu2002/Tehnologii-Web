@@ -15,13 +15,15 @@
             <li>
                 <a href="services-page.php" class="nav-bar-links">Services</a>
             </li>
-            <li>
+            <li style="display: flex">
                 <?php
-                    if(isset($_SESSION["logged"]) && isset($_SESSION["login"])){
+                    if(isset($_SESSION["logged"]) && isset($_SESSION["login"]) && $_SESSION["logged"] == true){
                         $login = $_SESSION["login"];
                         echo "
-                            <a href='auth-page.php' class='log_in-button'>$login</a>
-                            <a href='index.php' class='log_in-button' id='logout-btn' style='background-color: transparent'><img src='Img/logout.png' alt='loguot' style='width: 25px'></a>
+                            <a href='#' class='log_in-button' style='height: max-content'>$login</a>
+                            <form action='logout.php'>
+                                <button class='logoutBtn' type='submit' style='background: transparent; outline: none; border: none; margin: 2px 20px'><img src='Img/logout.png' alt='loguot' style='width: 25px;cursor: pointer'></button>
+                            </form>  
                         ";
                     } 
                     else {

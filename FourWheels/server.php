@@ -13,6 +13,6 @@
             return;
         }
     }
-
-    echo "error";
+    $_SESSION["succes"] = false;
+    header( 'Location: auth-page.php' );   
 ?>
