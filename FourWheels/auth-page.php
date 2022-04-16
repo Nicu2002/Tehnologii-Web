@@ -15,27 +15,34 @@
         <div id="antet">
             <h2 id="sign-in-header" class="form-switcher active-btn">SIGN IN</h2>
             <h2 id="register-header" class="form-switcher">REGISTER</h2 id="sign-in-header">
-            <div class="active-line activeLine"></div>
+            <div id="active-line"></div>
         </div>
         <form action="server.php" method="get" id="sign-in" class="auth-form" data-info="log">
             <input type="text" placeholder="login" name="login">
-            <input type="text" placeholder="password" name="password">
+            <input type="password" placeholder="password" name="password">
             <button type="submit">LOG IN</button>
 
             <a id="forgot_pass" href="">Forgot Password?</a>
             <?php 
-                if(isset($_SESSION["succes"]) && $_SESSION["succes"] == false) {
+                if(isset($_SESSION["authSucces"]) && $_SESSION["authSucces"] == false) {
                     echo "<p style='color: red; font-size: 12px; margin-top: 10px'>Wrong login or password!</p>";
-                    $_SESSION["succes"] = true;
+                    $_SESSION["authSucces"] = true;
                 }
             ?>
         </form>
 
-        <form action="post-data.php" method="post" id="sign-up" class="auth-form hide" data-info="reg">
-            <input type="text" placeholder="email" name="email">
-            <input type="text" placeholder="login" name="login">
-            <input type="text" placeholder="password" name="password">
-            <button type="submit">REGISTER</button>
+        <form action="reg-user.php" method="post" id="sign-up" class="auth-form hide" data-info="reg">
+            <input type="text" placeholder="email" name="email" id="reg-email">
+            <input type="text" placeholder="login" name="login" id="reg-login">
+            <input type="password" placeholder="password" name="password" id="reg-pass"></input>
+            <img src="Img/show.png" alt="show" class="show-pass-btn">
+            <button type="submit" disabled=true style="background-color: #b36f6b" id="regBtn">REGISTER</button>
+            <?php 
+                if(isset($_SESSION["regSucces"]) && $_SESSION["regSucces"] == false) {
+                    echo "<p style='color: red; font-size: 12px; margin-top: 10px'>User already exist!</p>";
+                    $_SESSION["regSucces"] = true;
+                }
+            ?>
         </form>
 
     </div>

@@ -12,6 +12,7 @@
 body {
     background-color: #3a404a;
     height: max-content;
+    overflow-X: hidden;
 }
 
 /*navbar*/
@@ -169,5 +170,80 @@ footer li {
     position: absolute;
     top: -2px;
     left: -35px;
+}
+
+.popUpWindow {
+    width: 350px;
+    height: 250px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.popUpWindow form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popUpWindow h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+}
+
+.popUpWindow form input {
+    display: block;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.popUpWindow form button {
+    font-size: 20px;
+    box-sizing: border-box;
+    width: max-content;
+    padding: 5px 10px;
+    height: max-content;
+    background-color: #959595;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.closeX {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.closeX img {
+    display: block;
+    width: 15px;
+    cursor: pointer;
+}
+
+.openPopAppBtn {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: fixed;
+    font-size: 20px;
+    padding: 10px 15px;
+    height: max-content;
+    width: max-content;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
 }
 

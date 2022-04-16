@@ -9,6 +9,26 @@
             "name": "Nicu",
             "email": "nicu@something.com",
             "password": "loveu"
+        },
+        {
+            "name": "Test",
+            "email": "test@mail.ru",
+            "password": "test"
+        },
+        {
+            "name": "new_user",
+            "email": "newuser@mail.ru",
+            "password": "newuserpass"
+        },
+        {
+            "name": "some_body",
+            "email": "somebody@mail.com",
+            "password": "somebody"
+        },
+        {
+            "name": "elena_spana",
+            "email": "lena@mail.com",
+            "password": "elenapass"
         }
     ]
 }

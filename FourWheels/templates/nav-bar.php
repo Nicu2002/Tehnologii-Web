@@ -20,7 +20,7 @@
                     if(isset($_SESSION["logged"]) && isset($_SESSION["login"]) && $_SESSION["logged"] == true){
                         $login = $_SESSION["login"];
                         echo "
-                            <a href='#' class='log_in-button' style='height: max-content'>$login</a>
+                            <a href='#' class='log_in-button' style='height: max-content; width: max-content'>$login</a>
                             <form action='logout.php'>
                                 <button class='logoutBtn' type='submit' style='background: transparent; outline: none; border: none; margin: 2px 20px'><img src='Img/logout.png' alt='loguot' style='width: 25px;cursor: pointer'></button>
                             </form>  

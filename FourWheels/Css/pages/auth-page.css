@@ -63,6 +63,12 @@ form {
     position: absolute;
     left: 0;
     bottom: -5px;
+    transition: 0.2s ease-in;
+}
+
+#auth-reg-form>div div.active {
+    transform: translateX(88px);
+    width: 80px;
 }
 
 #sign-in-header {
@@ -90,6 +96,11 @@ form {
     display: none;
 }
 
-.activeLine {
-    background-color: red;
+.show-pass-btn {
+    display: block;
+    width: 20px;
+    position: absolute;
+    bottom: 60px;
+    left: 250px;
+    cursor: pointer;
 }
